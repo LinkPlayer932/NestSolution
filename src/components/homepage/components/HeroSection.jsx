@@ -60,8 +60,8 @@ const HeroSection = () => {
       >
                 <div className="w-full md:w-1/2 flex justify-center min-w-[200px]">
           <img
-            src="/screenshot-2025-09-24-203921-1024x652.png"
-            alt="hero"
+            src="/Laptopscreenshot.png"
+            alt=""
             className="w-full md:w-3/4 object-cover"
           />
         </div>
