@@ -3,9 +3,9 @@ import Image from "next/image";
 
 const WhyChoose = () => {
   return (
-    <div className="w-full py-4 px-6">
+    <div className="mycontainer w-full py-4 px-6">
       {/* HEADING */}
-      <h1 className="text-[36px] text-[#c70c0cd7] text-center font-bold leading-relaxed">
+      <h1 className="text-[23px] md:text-[35px] text-[#c70c0cd7] text-center font-bold leading-relaxed">
         Why Choose Nextsol for Web Development in Lahore
       </h1>
 

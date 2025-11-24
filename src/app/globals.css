@@ -10,9 +10,9 @@
 .container {
   width: 100%;
   max-width: 1440px;
-  margin: auto;
-  padding: 0 20px;
-  box-sizing: border-box;
+  margin: 0 auto;
+padding: 0 1rem;
+
 }
 
 

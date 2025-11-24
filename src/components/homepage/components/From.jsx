@@ -123,7 +123,7 @@ const From = () => {
   ];
 
   return (
-    <div className={`${sora.className} mx-auto flex flex-col lg:flex-row items-start justify-center gap-12 p-5 md:p-10 lg:p-20`}>
+    <div className={`${sora.className} container mx-auto flex flex-col lg:flex-row items-start justify-center gap-12 p-5 md:p-10 lg:p-20`}>
 
       {/* LEFT SIDE */}
       <div className="w-full lg:w-1/2">

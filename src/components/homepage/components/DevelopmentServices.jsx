@@ -1,3 +1,5 @@
+
+
 import { Database, DatabaseBackup, Orbit, PlaneIcon } from "lucide-react";
 import React from "react";
 import { DiCodepen } from "react-icons/di";
@@ -8,7 +10,7 @@ const sora = Sora({ subsets: ["latin"], weight: "800" });
 
 const DevelopmentServices = () => {
   return (
-    <div className={`${sora.className} mx-auto px-6 w-full mt-20`} >
+    <div className={`${sora.className} container mx-auto px-6 w-full mt-20`} >
       <h1 className="text-[23px] md:text-[35px] text-center  text-[#c70c0cd7] font-bold leading-relaxed mt-16">
         Website Development Services
       </h1>

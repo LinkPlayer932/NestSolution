@@ -4,7 +4,7 @@ const poppins = Poppins({ subsets: ["latin"], weight: "400" });
 
 const OnlyText = () => {
   return (
-    <div className="mx-auto py-10 px-6">
+    <div className="container mx-auto py-10 px-6">
       {/* HEADING */}
       <h1 className={`${poppins.className} text-[23px] md:text-[35px] text-center font-bold leading-relaxed`}>
         <span className="font-bold">Web</span> <span className="text-[#c8272c] font-bold">Development & Designing</span>{" "}
@@ -12,7 +12,7 @@ const OnlyText = () => {
       </h1>
 
       {/* PARAGRAPHS CONTAINER */}
-      <div className="max-w-5xl mx-auto mt-8 space-y-6 text-left md:text-center ">
+      <div className="max-w-5xl mx-auto mt-8 space-y-6 text-left md:text-center mb-10k">
         <p className="text-[18px] text-black leading-relaxed">
           Next Solutions is recognized as one of the top 10 web development
           companies in Lahore, with over 10 years of experience. We specialize

@@ -69,7 +69,7 @@ const Navbar = () => {
   const [open, setOpen] = useState(false);
 
   return (
-    <nav className="fixed w-full bg-white md:bg-black text-black md:text-white shadow-md mb-10 py-4 md:px-6 md:py-4 z-50">
+    <nav className="fixed w-full bg-white md:bg-black text-black md:text-white shadow-md mb-10 py-4 md:px-4 md:py-4 z-50">
 
       <div className="container mx-auto flex items-center justify-between py-4 px-4 md:px-20">
 

@@ -74,8 +74,8 @@ const poppins = Poppins({
 
 const HeroSection = () => {
   return (
-    <div className=" mx-auto font-poppins bg-white pt-28 md:pt-48 pb-10 p-4 md:p-20">
-      <div className="flex flex-col md:flex-row items-center justify-between gap-12 md:gap-10">
+    <div className="w-full font-poppins bg-white pt-28 md:pt-48 pb-10 p-4 md:p-20">
+      <div className="mycontainer mx-auto flex flex-col md:flex-row items-center justify-between gap-12 md:gap-10">
 
         {/* LEFT CONTENT */}
         <div className={`${poppins.className} w-full max-w-xl text-left mt-6 md:mt-0`}>

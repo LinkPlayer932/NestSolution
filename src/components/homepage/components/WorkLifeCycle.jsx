@@ -10,7 +10,7 @@ const sora = Sora({ subsets: ["latin"], weight: "800" });
 
 const WorkLifeCycle = () => {
   return (
-    <div className="container mx-auto px-6 w-full mt-20">
+    <div className="container mx-auto px-4 w-full mt-10">
       <h1 className={`${sora.className} text-[23px] md:text-[40px] text-center  text-red-600 font-bold leading-relaxed`}>
         Website Development Life Cycle
       </h1>

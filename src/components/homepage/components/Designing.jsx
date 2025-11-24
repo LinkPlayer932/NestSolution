@@ -6,10 +6,10 @@ const sora = Sora({ subsets: ["latin"] });
 
 const Designing = () => {
   return (
-    <div className="mx-auto bg-[#ececec] py-20 p-6">
+    <div className="w-full bg-[#ececec] py-20 p-6">
       {" "}
       {/* FULL BACKGROUND */}
-      <div className="mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-12">
+      <div className="container mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-12">
         {/* LEFT CONTENT */}
         <div className={`${sora.className} max-w-xl text-left mt-10 md:mt-0`}>
           <h1 className="text-[25px] md:text-[45px] font-extrabold mt-4 text-black md:text-left text-left leading-tight">

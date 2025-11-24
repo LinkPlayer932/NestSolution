@@ -8,13 +8,13 @@ import "swiper/css/navigation";
 
 const Testimonials = () => {
   return (
-    <div className="w-full py-16">
+    <div className="mycontainer w-full py-16">
       {/* TITLE */}
       <h1 className="text-center text-[40px] font-extrabold text-red-600 mb-10">
         WHAT OUR CLIENTS SAYS
       </h1>
 
-      <div className="max-w-7xl mx-auto">
+      <div className="max-w-7xl mx-auto mb-8">
         <Swiper
           modules={[Navigation]}
           navigation
