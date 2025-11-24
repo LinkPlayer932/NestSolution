@@ -10,11 +10,15 @@ import {
   Youtube,
   Twitch,
 } from "lucide-react";
+import { Sora } from "next/font/google";
+
+const sora = Sora({ subsets: ["latin"] });
+
 
 const Footer = () => {
   return (
     <>
-    <div className="mt-20 bg-black text-white pt-18 pb-4 px-6">
+    <div className={`${sora.className} mt-20 bg-black text-white pt-18 pb-4 px-6`} >
       <div className="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-10">
         {/* LEFT COLUMN */}
         <div className=" px-6">
@@ -51,17 +55,17 @@ const Footer = () => {
           <div className="space-y-3 text-sm">
             {/* Email */}
             <a
-              href="mailto:info@nextsol.pk"
+              href="mailto:linkplayer932@gmail.com"
               className="flex items-center gap-2 "
             >
               <Mail size={18} className="hover:text-red-500 transition" />
-              <p>Email us: info@nextsol.pk</p>
+              <p>Email us: linkplayer932@gmail.com</p>
             </a>
 
             {/* Phone */}
-            <a href="tel:+923435743690" className="flex items-center gap-2 ">
+            <a href="tel:+923124369225" className="flex items-center gap-2 ">
               <Phone size={18} className="hover:text-red-500 transition" />
-              <p>Call us: +92-343-5743690</p>
+              <p>Call us: +92-3124369225</p>
             </a>
 
             {/* Address */}

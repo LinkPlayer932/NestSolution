@@ -27,7 +27,7 @@ const WhyChoose = () => {
 
       {/* PARAGRAPHS CONTAINER */}
       <div className="max-w-5xl mx-auto mt-10 space-y-6 text-center">
-        <h1 className="text-[36px] text-[#c70c0cd7] text-center font-bold leading-relaxed">
+        <h1 className="text-[23px] md:text-[35px] text-[#c70c0cd7] text-center font-bold leading-relaxed">
           OUR CLIENTS
         </h1>
         <p className="text-[16px] text-black leading-relaxed">

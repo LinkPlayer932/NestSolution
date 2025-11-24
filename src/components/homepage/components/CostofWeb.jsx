@@ -1,10 +1,16 @@
 import React from "react";
+import { Sora } from "next/font/google";
+
+const sora = Sora({
+  subsets: ["latin"],
+  weight: ["400", "500", "600", "700"],
+});
 
 const CostofWeb = () => {
-  return (
-    <div className="w-full py-4 px-6">
+  return ( 
+    <div className={`${sora.className} w-full py-4 px-6`} >
       {/* HEADING */}
-      <h1 className="text-[36px] text-[#c70c0cd7] text-center font-bold leading-relaxed">
+      <h1 className="text-[25px] md:text-[35px] text-[#c70c0cd7] text-center font-bold leading-relaxed">
         Cost of Web Development​
       </h1>
 
@@ -29,7 +35,7 @@ const CostofWeb = () => {
 
         <a
           className="w-fit px-6 py-2 text-[15px] rounded font-semibold text-white bg-red-800 hover:bg-black  transition"
-          href="/"
+          href="/pricing"
         >
           <span className="text-[16px]">Check Packages</span>
         </a>

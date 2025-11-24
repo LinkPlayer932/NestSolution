@@ -106,6 +106,11 @@
 // export default From;
 "use client";
 import React, { useState } from "react";
+import { Sora } from "next/font/google";
+import { FaPlus, FaMinus } from "react-icons/fa";
+
+const sora = Sora({ subsets: ["latin"] });
+
 
 const From = () => {
   const [openFAQ, setOpenFAQ] = useState(null);
@@ -118,11 +123,11 @@ const From = () => {
   ];
 
   return (
-    <div className="container flex flex-col lg:flex-row items-start justify-center gap-12 p-5 md:p-10 lg:p-20">
+    <div className={`${sora.className} mx-auto flex flex-col lg:flex-row items-start justify-center gap-12 p-5 md:p-10 lg:p-20`}>
 
       {/* LEFT SIDE */}
       <div className="w-full lg:w-1/2">
-        <h2 className="text-3xl md:text-4xl font-bold text-red-700 mb-6">FAQ's</h2>
+        <h2 className="text-2xl md:text-4xl font-bold text-red-700 mb-6">FAQ's</h2>
 
         <div className="space-y-4">
           {faqs.map((item, i) => (
@@ -145,7 +150,7 @@ const From = () => {
         </div>
 
         {/* RESPONSIVE IMAGE */}
-        <div className="mt-10 flex justify-center lg:justify-start">
+        <div className="mt-10 flex justify-center lg:justify-center">
           <img src="/SEO-articles.png" className="w-full max-w-[250px]" alt="" />
         </div>
       </div>

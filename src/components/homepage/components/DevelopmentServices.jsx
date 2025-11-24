@@ -3,11 +3,13 @@ import React from "react";
 import { DiCodepen } from "react-icons/di";
 import { FaLaptopCode } from "react-icons/fa";
 import { SiAntdesign, SiCompilerexplorer, SiTestrail } from "react-icons/si";
+import { Sora } from "next/font/google";
+const sora = Sora({ subsets: ["latin"], weight: "800" });
 
 const DevelopmentServices = () => {
   return (
-    <div className="mycontainer mx-auto px-6 w-full mt-20">
-      <h1 className="text-[40px] text-center  text-[#c70c0cd7] font-bold leading-relaxed mt-16">
+    <div className={`${sora.className} mx-auto px-6 w-full mt-20`} >
+      <h1 className="text-[23px] md:text-[35px] text-center  text-[#c70c0cd7] font-bold leading-relaxed mt-16">
         Website Development Services
       </h1>
       <p className="text-[16px] text-center  text-[#000000] font-normal leading-relaxed">
@@ -29,11 +31,11 @@ const DevelopmentServices = () => {
 
             {/* TEXT */}
             <div>
-              <h3 className="text-[20px] font-bold text-red-600 mb-2">
+              <h3 className="text-[20px] font-normal text-red-600 mb-2">
                 Logo Designing
               </h3>
 
-              <p className="text-[14px] text-black leading-relaxed mb-4">
+              <p className="text-[14px] text-black  font-normal leading-relaxed mb-4">
                 Get cheap logo design services. Hire a graphic designer for a
                 professional online logo design service, graphic design services
                 and graphic design service provider. All this but that's not all
@@ -44,6 +46,7 @@ const DevelopmentServices = () => {
                 className="w-fit px-6 py-2 border border-black rounded-full text-[15px] hover:bg-black hover:text-white transition inline-block"
                 href="/learnmore"
               >
+
                 Learn More →
               </a>
             </div>
@@ -57,11 +60,11 @@ const DevelopmentServices = () => {
             <img src="/web-page.png" alt="" />
 
             <div>
-              <h3 className="text-[20px] font-bold text-red-600 mb-2">
+              <h3 className="text-[20px] font-normal text-red-600 mb-2">
                 Web Development
               </h3>
 
-              <p className="text-[14px] text-black leading-relaxed mb-4">
+              <p className="text-[14px] text-black font-normal leading-relaxed mb-4">
                 This company ranks as one of the best web development and SEO.
                 As a result of our efforts, it invites customers to return to
                 your site multiple times. We never work on the notion that the
@@ -85,11 +88,11 @@ const DevelopmentServices = () => {
             <img src="/web-management.png" alt="" />
 
             <div>
-              <h3 className="text-[20px] font-bold text-red-600 mb-2">
+              <h3 className="text-[20px] font-normal text-red-600 mb-2">
                 Web Design
               </h3>
 
-              <p className="text-[14px] text-black leading-relaxed mb-4">
+              <p className="text-[14px] text-black font-normal leading-relaxed mb-4">
                 Our team build your online website effectively using latest Web
                 designing techniques and as a result, it draws customers to your
                 site multiple times because we are one of the best web designing
@@ -113,9 +116,9 @@ const DevelopmentServices = () => {
             <img src="/web-page.png" alt="" />
 
             <div>
-              <h3 className="text-[20px] font-bold text-red-600 mb-2">PPC</h3>
+              <h3 className="text-[20px] font-normal text-red-600 mb-2">PPC</h3>
 
-              <p className="text-[14px] text-black leading-relaxed mb-4">
+              <p className="text-[14px] text-black font-normal leading-relaxed mb-4">
                 Get business leads with PPC campaigns? We organize your campaign
                 to attract the right customers and use effective keyword
                 targeting. Nextsol's working to find keywords that can help your
@@ -141,9 +144,9 @@ const DevelopmentServices = () => {
             <img src="/seo.png" alt="" />
 
             <div>
-              <h3 className="text-[20px] font-bold text-red-600 mb-2">SEO</h3>
+              <h3 className="text-[20px] font-normal text-red-600 mb-2">SEO</h3>
 
-              <p className="text-[14px] text-black leading-relaxed mb-4">
+              <p className="text-[14px] text-black font-normal leading-relaxed mb-4">
                 Our creative leaders and an expert SEO team will provide all the
                 services that you need and because Nextsol is a trusted company
                 that can provide you with the best SEO services, Whatever the
@@ -169,11 +172,11 @@ const DevelopmentServices = () => {
             <img src="/web-page.png" alt="" />
 
             <div>
-              <h3 className="text-[20px] font-bold text-red-600 mb-2">
+              <h3 className="text-[20px] font-normal text-red-600 mb-2">
                 Digital Marketing
               </h3>
 
-              <p className="text-[14px] text-black leading-relaxed mb-4">
+              <p className="text-[14px] text-black font-normal leading-relaxed mb-4">
                 The NextSol is the Best web development and SEO services
                 introduced digital marketing in view of the growing
                 participation of people in today's world. Digital means the

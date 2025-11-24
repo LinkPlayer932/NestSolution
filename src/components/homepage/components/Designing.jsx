@@ -1,14 +1,18 @@
+
 import React from "react";
+
+import { Sora } from "next/font/google";
+const sora = Sora({ subsets: ["latin"] });
 
 const Designing = () => {
   return (
-    <div className="w-full bg-[#ececec] py-10 p-4">
+    <div className="mx-auto bg-[#ececec] py-20 p-6">
       {" "}
       {/* FULL BACKGROUND */}
-      <div className="mycontainer px-6 flex flex-col md:flex-row items-center justify-between gap-12">
+      <div className="mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-12">
         {/* LEFT CONTENT */}
-        <div className="max-w-xl text-left mt-10 md:mt-0 ">
-          <h1 className="text-[30px] md:text-[40px] font-extrabold mt-4 text-black leading-tight">
+        <div className={`${sora.className} max-w-xl text-left mt-10 md:mt-0`}>
+          <h1 className="text-[25px] md:text-[45px] font-extrabold mt-4 text-black md:text-left text-left leading-tight">
             <span className="text-red-700">Best Web Designing</span> in Lahore
           </h1>
 
@@ -26,18 +30,16 @@ const Designing = () => {
           </p>
 
           <div className="flex items-center gap-4 mt-6">
-            <button className="bg-red-800 hover:bg-red-600 text-white px-8 py-3 rounded-lg font-medium text-[16px] shadow">
-              Get a Quote
-            </button>
+            <a href="/" className="bg-red-800 hover:bg-red-600 text-white px-4  py-2 rounded-lg font-medium text-[10px] md:text-[16px] shadow"><span>Get a Quote</span></a>
 
-            <button className="border border-red-400 shadow hover:bg-red-800 hover:text-white px-6 py-3 rounded-lg text-[16px] font-medium">
-              Book a Call
-            </button>
+            <a href="/" className="border border-red-800 hover:bg-red-700 hover:text-white px-4 py-2 rounded-lg text-[10px] md:text-[16px] font-medium">
+               <span>Book a Call</span>
+            </a >
           </div>
         </div>
 
         {/* RIGHT CONTENT */}
-        <div className="flex flex-col gap-4 ">
+        <div className={`${sora.className} flex flex-col gap-4`}>
           <div className=" bg-black text-white px-6 py-6 rounded-xl shadow-lg border border-red-400">
             <h1 className="text-center text-[22px]">Our Mission</h1>
             <p className=" text-center text-[13px] mt-2">
