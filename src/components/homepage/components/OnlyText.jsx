@@ -12,7 +12,7 @@ const OnlyText = () => {
       </h1>
 
       {/* PARAGRAPHS CONTAINER */}
-      <div className="max-w-5xl mx-auto mt-8 space-y-6 text-left md:text-center mb-10k">
+      <div className="max-w-5xl mx-auto mt-8 space-y-6 text-left md:text-center mb-10">
         <p className="text-[18px] text-black leading-relaxed">
           Next Solutions is recognized as one of the top 10 web development
           companies in Lahore, with over 10 years of experience. We specialize

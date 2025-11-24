@@ -27,7 +27,7 @@ const DevelopmentServices = () => {
         {/* CARD 1 */}
         <div className="flex flex-col border border-red-500 rounded-2xl p-8 shadow-sm bg-white w-full">
           {/* ICON + TEXT IN ROW (LEFT → RIGHT) */}
-          <div className="flex items-start gap-4 flex-col md:flex-row">
+          <div className=" items-start gap-4 flex md:flex-row">
             {/* ICON */}
             <img src="/global-business.png" alt="" />
 
@@ -45,7 +45,7 @@ const DevelopmentServices = () => {
               </p>
 
               <a
-                className="w-fit px-6 py-2 border border-black rounded-full text-[15px] hover:bg-black hover:text-white transition inline-block"
+                className="w-fit px-6 py-2 border border-black rounded-full text-[12px] md:text-[16px] hover:bg-black hover:text-white transition inline-block"
                 href="/learnmore"
               >
 
@@ -57,7 +57,7 @@ const DevelopmentServices = () => {
 
         {/* CARD 2 */}
         <div className="border border-red-500 rounded-2xl p-8 shadow-sm bg-white w-full">
-          <div className="flex items-start gap-4 flex-col md:flex-row">
+          <div className="flex items-start gap-4 md:flex-row">
 
             <img src="/web-page.png" alt="" />
 
@@ -74,7 +74,7 @@ const DevelopmentServices = () => {
               </p>
 
               <a
-                className="w-fit px-6 py-2 border border-black rounded-full text-[15px] hover:bg-black hover:text-white transition inline-block"
+                className="w-fit px-6 py-2 border border-black rounded-full text-[12px] md:text-[16px] hover:bg-black hover:text-white transition inline-block"
                 href="/learnmore"
               >
                 Learn More →
@@ -85,7 +85,7 @@ const DevelopmentServices = () => {
 
         {/* CARD 3 */}
         <div className="border border-red-500 rounded-2xl p-8 shadow-sm bg-white w-full">
-          <div className="flex items-start gap-4 flex-col md:flex-row">
+          <div className="flex items-start gap-4 md:flex-row">
 
             <img src="/web-management.png" alt="" />
 
@@ -102,7 +102,7 @@ const DevelopmentServices = () => {
               </p>
 
               <a
-                className="w-fit px-6 py-2 border border-black rounded-full text-[15px] hover:bg-black hover:text-white transition inline-block"
+                className="w-fit px-6 py-2 border border-black rounded-full text-[12px] md:text-[16px] hover:bg-black hover:text-white transition inline-block"
                 href="/learnmore"
               >
                 Learn More →
@@ -113,7 +113,7 @@ const DevelopmentServices = () => {
 
         {/* CARD 4 */}
         <div className="border border-red-500 rounded-2xl p-8 shadow-sm bg-white w-full">
-          <div className="flex items-start gap-4 flex-col md:flex-row">
+          <div className="flex items-start gap-4 md:flex-row">
 
             <img src="/web-page.png" alt="" />
 
@@ -130,7 +130,7 @@ const DevelopmentServices = () => {
               </p>
 
               <a
-                className="w-fit px-6 py-2 border border-black rounded-full text-[15px] hover:bg-black hover:text-white transition inline-block"
+                className="w-fit px-6 py-2 border border-black rounded-full text-[12px] md:text-[16px] hover:bg-black hover:text-white transition inline-block"
                 href="/learnmore"
               >
                 Learn More →
@@ -141,7 +141,7 @@ const DevelopmentServices = () => {
 
         {/* CARD 5 */}
         <div className="border border-red-500 rounded-2xl p-8 shadow-sm bg-white w-full">
-          <div className="flex items-start gap-4 flex-col md:flex-row">
+          <div className="flex items-start gap-4 md:flex-row">
 
             <img src="/seo.png" alt="" />
 
@@ -158,7 +158,7 @@ const DevelopmentServices = () => {
               </p>
 
               <a
-                className="w-fit px-6 py-2 border border-black rounded-full text-[15px] hover:bg-black hover:text-white transition inline-block"
+                className="w-fit px-6 py-2 border border-black rounded-full text-[12px] md:text-[16px] hover:bg-black hover:text-white transition inline-block"
                 href="/learnmore"
               >
                 Learn More →
@@ -169,7 +169,7 @@ const DevelopmentServices = () => {
 
         {/* CARD 6 */}
         <div className="border border-red-500 rounded-2xl p-8 shadow-sm bg-white w-full">
-          <div className="flex items-start gap-4 flex-col md:flex-row">
+          <div className="flex items-start gap-4 md:flex-row">
 
             <img src="/web-page.png" alt="" />
 
@@ -188,7 +188,7 @@ const DevelopmentServices = () => {
               </p>
 
               <a
-                className="w-fit px-6 py-2 border border-black rounded-full text-[15px] hover:bg-black hover:text-white transition inline-block"
+                className="w-fit px-6 py-2 border border-black rounded-full text-[12px] md:text-[16px] hover:bg-black hover:text-white transition inline-block"
                 href="/learnmore"
               >
                 Learn More →
