@@ -9,6 +9,7 @@ import {
   Linkedin,
   Youtube,
   Twitch,
+  Github,
 } from "lucide-react";
 import { Sora } from "next/font/google";
 
@@ -34,7 +35,7 @@ const Footer = () => {
 
           {/* Social Icons */}
           <div className="flex items-center gap-4 mt-6">
-            {[Facebook, Instagram, Youtube, Linkedin].map((Icon, i) => (
+            {[Facebook, Instagram, Youtube, Linkedin, Github].map((Icon, i) => (
               <a
                 key={i}
                 href="#"
