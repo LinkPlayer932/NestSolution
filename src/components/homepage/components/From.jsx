@@ -138,7 +138,7 @@ const From = () => {
     setSuccessMessage("");
 
     try {
-      const res = await fetch("okhttps://nest-solution-backend.vercel.app/api/contact", {
+      const res = await fetch("https://nest-solution-backend.vercel.app/api/contact", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(formData),
