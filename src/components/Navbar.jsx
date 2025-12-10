@@ -24,7 +24,6 @@ const MegaDropdown = ({ title, items }) => {
         className="flex items-center gap-1 hover:text-red-500 transition"
       >
         {title} <ChevronDown size={14} />
-        
       </a>
 
       {open && (
@@ -70,9 +69,7 @@ const Navbar = () => {
 
   return (
     <nav className="fixed w-full bg-white md:bg-black text-black md:text-white shadow-md mb-10 py-4 md:px-4 md:py-4 z-50">
-
       <div className="container mx-auto flex items-center justify-between py-4 px-4 md:px-20">
-
         {/* Logo */}
         <div className="flex items-center">
           <img src="/NExt-sol.png" className="hidden md:block w-56" />
@@ -100,7 +97,10 @@ const Navbar = () => {
             title="Services"
             items={[
               { label: "Services", href: "/services" },
-              { label: "Web Development Services", href: "/services/web-development" },
+              {
+                label: "Web Development Services",
+                href: "/services/web-development",
+              },
               {
                 label: "Website Designing",
                 submenu: [
@@ -135,16 +135,19 @@ const Navbar = () => {
           <a href="/contact" className="hover:text-red-500 transition">
             Contact Us
           </a>
+          <a href="/blog" className="hover:text-red-500 transition">
+            Blog
+          </a>
         </div>
 
         {/* Desktop CTA */}
 
         <a
-            href="tel:+923124369225"
-            className="hidden md:block bg-red-700 hover:bg-white hover:text-black text-white font-semibold px-4 py-5 rounded shadow transition"
-          >
-            Book Your Free Strategy Call
-          </a>
+          href="tel:+923124369225"
+          className="hidden md:block bg-red-700 hover:bg-white hover:text-black text-white font-semibold px-4 py-5 rounded shadow transition"
+        >
+          Book Your Free Strategy Call
+        </a>
 
         {/* Mobile Toggle */}
         <button
@@ -158,7 +161,6 @@ const Navbar = () => {
       {/* Mobile Menu */}
       {open && (
         <div className="md:hidden bg-white text-black px-6 py-6 space-y-4 border-t border-gray-200 max-h-[80vh] overflow-y-auto">
-
           <a href="/" className="block hover:text-red-600">
             Home
           </a>
@@ -196,8 +198,12 @@ const Navbar = () => {
             </div>
           </details>
 
-          <a href="/career" className="block hover:text-red-600">Career</a>
-          <a href="/contact" className="block hover:text-red-600">Contact Us</a>
+          <a href="/career" className="block hover:text-red-600">
+            Career
+          </a>
+          <a href="/contact" className="block hover:text-red-600">
+            Contact Us
+          </a>
 
           <a
             href="tel:+923124369225"
