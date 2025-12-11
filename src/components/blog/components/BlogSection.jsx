@@ -57,6 +57,7 @@
 
 "use client";
 import React, { useEffect, useState } from "react";
+import Link from "next/link";
 
 const BlogSection = () => {
   const [articles, setArticles] = useState([]);
@@ -64,7 +65,9 @@ const BlogSection = () => {
   useEffect(() => {
     const fetchArticles = async () => {
       try {
-        const res = await fetch("https://nest-solution-backend.vercel.app/api/articles");
+        const res = await fetch(
+          "https://nest-solution-backend.vercel.app/api/articles"
+        );
         const data = await res.json();
         setArticles(data);
       } catch (err) {
@@ -90,25 +93,32 @@ const BlogSection = () => {
         {articles.map((a) => (
           <div
             key={a._id}
-            className="bg-white shadow-md rounded-xl overflow-hidden hover:shadow-xl transition"
+            className="bg-white shadow-md rounded-2xl overflow-hidden hover:shadow-xl transition flex flex-col"
           >
+            {/* Fixed Image Height */}
             {a.image && (
               <img
                 src={a.image}
                 alt={a.title}
-                className="w-full h-48 object-cover"
+                className="w-full h-56 object-cover"
               />
             )}
 
-            <div className="p-5">
+            {/* Content */}
+            <div className="p-5 flex flex-col flex-grow">
               <h3 className="text-xl font-semibold mb-2">{a.title}</h3>
-              <p className="text-gray-600 text-sm line-clamp-3">
-                {a.subtitle || a.description?.slice(0, 120) + "..."}
+
+              <p className="text-gray-600 text-sm line-clamp-3 flex-grow">
+                {a.subtitle || a.description?.slice(0, 140) + "..."}
               </p>
 
-              <button className="mt-4 text-blue-600 font-medium hover:underline">
+              {/* Button Stays at Bottom ALWAYS */}
+              <Link
+                href={`/blog/${a._id}`}
+                className="mt-4 text-blue-600 font-medium hover:underline block"
+              >
                 Read More →
-              </button>
+              </Link>
             </div>
           </div>
         ))}
