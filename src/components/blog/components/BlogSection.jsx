@@ -64,7 +64,7 @@ const BlogSection = () => {
   useEffect(() => {
     const fetchArticles = async () => {
       try {
-        const res = await fetch("http://localhost:5000/api/articles");
+        const res = await fetch("nest-solution-backend.vercel.app/api/articles");
         const data = await res.json();
         setArticles(data);
       } catch (err) {
